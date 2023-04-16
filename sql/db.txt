@@ -1,0 +1,39 @@
+student:
+    - student_id (pk)
+    - name
+    - email
+    - major
+    - semester
+    - ip
+
+score_database:
+    - student_id (fk)
+    - score_afl_1
+    - score_afl_2
+    - score_afl_3
+    - score_afl_4
+    - score_alp
+
+score_web:
+    - student_id (fk)
+    - score_afl_1
+    - score_afl_2
+    - score_afl_3
+    - score_afl_4
+    - score_alp
+    
+score_oop:
+    - student_id (fk)
+    - score_afl_1
+    - score_afl_2
+    - score_afl_3
+    - score_afl_4
+    - score_alp
+
+score_calculus:
+    - student_id (fk)
+    - score_afl_1
+    - score_afl_2
+    - score_afl_3
+    - score_afl_4
+    - score_alp
